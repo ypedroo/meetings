@@ -8,11 +8,11 @@ class NavBar extends Component {
               <Container>
                 <Menu.Item header>
                   <img src="assets/logo.png" alt="logo" />
-                  Meetings
+                  Meetings - Name
                 </Menu.Item>
-                <Menu.Item name="Events" />
+                <Menu.Item name="Meetings/Events" />
                 <Menu.Item>
-                  <Button floated="right" positive inverted content="Create Event" />
+                  <button class="ui orange button">Create</button>
                 </Menu.Item>
                 <Menu.Item position="right">
                   <Button basic inverted content="Login" />
