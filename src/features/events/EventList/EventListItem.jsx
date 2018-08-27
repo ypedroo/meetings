@@ -9,11 +9,11 @@ class EventListItem extends Component {
                 <Segment>
                   <Item.Group>
                     <Item>
-                      <Item.Image size="tiny" circular src="" />
+                      <Item.Image size="tiny" circular src="./santa-claus.png"/>
                       <Item.Content>
                         <Item.Header as="a">Event Title</Item.Header>
                         <Item.Description>
-                          Hosted by <a>hosted by</a>
+                          posted by <a>somebody</a>
                         </Item.Description>
                       </Item.Content>
                     </Item>
@@ -31,7 +31,7 @@ class EventListItem extends Component {
                   </List>
                 </Segment>
                 <Segment clearing>
-                  <Button as="a" color="teal" floated="right" content="View" />
+                  <Button as="a" color="orange" floated="right" content="View" />
                 </Segment>
               </Segment.Group>
       </div>
